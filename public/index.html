@@ -10,9 +10,18 @@
 </head>
 <body>
   <div class="main-wrapper">
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
+          <button class="navbar-toggle collapsed" aria-expanded="false" aria-controls="navbar" type="button" data-target="#navbar" data-toggle="collapse">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Doxa</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
           <ul class="nav navbar-nav navbar-left">
             <li><a class="navbar-brand" href="#"><img alt="Brand" src="..."></a></li>
             <li><button type="button" class="btn btn-default navbar-btn"><a href="index.html">Home</a></button></li>
@@ -20,7 +29,7 @@
             <li><button type="button" class="btn btn-default navbar-btn"><a href="assets/pages/projects.html">Projects</a></button></li>
           </ul>
         </div>
-      </div>
+        </div>
     </nav>
     <h1 class="gradient">Welcome to the app</h1>
     
