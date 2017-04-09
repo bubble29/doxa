@@ -12,20 +12,9 @@ html, body {
 h1 {
 	font-size: 300%;
 	text-align: center;
-	font-family: 'Acme', sans-serif;;
+	font-family: 'Acme', sans-serif;
 	font-weight: bold;
 	margin: 50px;
-}
-
-h1.gradient {
-	background: -webkit-linear-gradient(top, #1565c0, #45B649);
-	background: linear-gradient(top, #1565c0, #45B649);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-.navbar {
-	font-size: 100%;
 }
 
 /* ------------- */
@@ -37,4 +26,15 @@ h1.gradient {
 	background: linear-gradient(top, #000000, #53346D);
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+h1.gradient {
+	background: -webkit-linear-gradient(top, #1565c0, #45B649);
+	background: linear-gradient(top, #1565c0, #45B649);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.navbar {
+	font-size: 100%;
 }
