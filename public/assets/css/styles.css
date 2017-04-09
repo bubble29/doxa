@@ -3,13 +3,16 @@ CSS for DOXA
 /***********/
 
 html, body {
-	height: 100vh;
+	height: 100%;
   	margin: 0;
   	padding: 0;
 	background: -webkit-linear-gradient(top, #F0C27B, #4B1248);
 	background: linear-gradient(top, #F0C27B, #4B1248);
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+body {
+	height: 100vh;
 }
 
 h1 {
