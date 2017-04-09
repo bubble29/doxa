@@ -17,10 +17,10 @@ socket.on('newMessage', function(message) {
 });
 
 socket.emit('createMessage', {
-  from: "Frank",
+  from: "Jose@Group",
   text: "Hi"
 }, function(data) {
-  console.log("Got it", data);
+  console.log("Reni@Group connected to the Chat!!", data);
 });
 
 $('#message-form').on('submit', function(el) {
@@ -29,7 +29,7 @@ $('#message-form').on('submit', function(el) {
   var messageTextbox = $('[name=message]');
 
   socket.emit('createMessage', {
-    from: "User",
+    from: "Reni@Group",
     text: messageTextbox.val()
   }, function() {
     messageTextbox.val('');

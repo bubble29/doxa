@@ -29,8 +29,6 @@ $(function() {
 
   // Check on click
   $('.spec-task').click(function(){
-
-    console.log("It WOrkds");
     $(this).addClass("checked");
   });
 
