@@ -12,9 +12,14 @@ html, body {
 h1 {
 	font-size: 300%;
 	text-align: center;
-	font-family: 'Acme', sans-serif;
+	font-family: 'Acme';
 	font-weight: bold;
-	margin: 50px;
+	margin: 30px;
+}
+
+button.btn {
+	font-size: 125%;
+	font-family: 'Acme';
 }
 
 /* ------------- */
@@ -35,6 +40,3 @@ h1.gradient {
 	-webkit-text-fill-color: transparent;
 }
 
-.navbar {
-	font-size: 100%;
-}
