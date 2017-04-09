@@ -4,6 +4,7 @@
   <meta charset="sutf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Doxa</title>
+  <script src="https://use.fontawesome.com/aab8b54198.js"></script>
    <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/styles.css" type="text/css" />
@@ -25,6 +26,21 @@
         <button type="submit">Send</button>
       </form>
     </div>
+  </div>
+  <button type="submit">TODO</button>
+  <div class="add-form well">
+    <h3>New Task</h3>
+    <input type="text" id="new-todo" />
+    <input class="btn btn-success new-todo" type="submit" id="new-todo-submit" value="Add" />
+  </div>
+
+  <div class="todo-list col-md-4">
+    <h2 class="text-primary text-center">To do list</h2>
+    <center>
+      <i class="fa fa-plus add-todo" id="add-todo" aria-hidden="true"></i>
+    </center>
+    <i class="fa fa-circle-o todo-circle text-warning" id="circle-checked" aria-hidden="true">&nbsp;This is the first to do</i>
+    </br>
   </div>
 
   <!-- BEGIN OF SCRIPTS -->
