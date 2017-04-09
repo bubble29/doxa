@@ -24,7 +24,7 @@ io.on('connection', (socket) => {
   socket.on('createMessage', (message, callback) => {
     console.log('Create Message', message);
     io.emit('newMessage', generateMessage(message.from, message.text));
-    callback("This is from the server");
+    callback();
 
     // Sends the message to everyone except the user who joins
     /*
