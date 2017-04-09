@@ -1,1 +1,2 @@
 # DOXA
+## Getting Started
