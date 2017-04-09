@@ -112,3 +112,10 @@ div.login-form {
 .checked {
   color: #5cb85c;
 }
+
+a.users {
+  display: block;
+  margin-top: 20px;
+  width: 80%;
+  border-radius: 15%;
+}
