@@ -4,23 +4,16 @@
 
 html, body {
 	height: 100%;
-  	margin: 5;
+  	margin: 0;
   	padding: 0;
 }
 
-h1 {
-	font-size: 300%;
-	text-align: center;
-	font-family: 'Nunito';
-	font-weight: bold;
-	text-transform: capitalize;
-}
-
 button.navbar-btn {
-	font-size: 125%;
-	font-family: 'Acme';
+	font-size: 120%;
+	font-family: 'Francois One', sans-serif;
 	margin-left: .5em;
 }
+
 
 /* ------------- */
 /* - Index CSS - */
@@ -34,9 +27,30 @@ button.navbar-btn {
 }
 
 h1.gradient {
+	font-size: 300%;
+	text-align: center;
+	font-family: 'Nunito';
+	font-weight: bold;
+	text-transform: capitalize;
 	background: -webkit-linear-gradient(top, #1565c0, #45B649);
 	background: linear-gradient(top, #1565c0, #45B649);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	margin-bottom: 6%;
 }
 
+h1.gradient1 {
+	background: #fceabb;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 200%;
+	text-align: center;
+	font-family: 'Francois One', sans-serif;
+	text-transform: capitalize;
+}
+
+.main {
+	margin-top: 3%;
+}
