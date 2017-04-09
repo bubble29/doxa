@@ -76,3 +76,36 @@ div.login-form {
   display: block;
   width: 30%;
 }
+/* --------------- */
+/* - TODO CIRCLE - */
+/* --------------- */
+.todo-circle {
+  font-size: 200%;
+  transition: color 1s;
+}
+
+.todo-circle:hover {
+  color: #5cb85c;
+}
+
+.add-todo {
+  font-size: 250%;
+  display: block;
+  margin: 5px;
+}
+
+.add-todo:hover {
+  color: #555;
+}
+
+.new-todo {
+  margin: 2px;
+}
+
+.add-form {
+  height: 25%;
+}
+
+.checked {
+  color: #5cb85c;
+}
