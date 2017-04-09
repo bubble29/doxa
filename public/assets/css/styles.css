@@ -1,18 +1,12 @@
-/***********/
-CSS for DOXA
-/***********/
+/* ------------- */
+/* CSS for DOXA  */
+/* ------------- */
 
 html, body {
 	height: 100%;
   	margin: 0;
   	padding: 0;
-	background: -webkit-linear-gradient(top, #000000, #53346D);
-	background: linear-gradient(top, #000000, #53346D);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-body {
-	height: 100vh;
+	
 }
 
 h1 {
@@ -32,4 +26,15 @@ h1.gradient {
 
 .navbar {
 	font-size: 100%;
+}
+
+/* ------------- */
+/* - Index CSS - */
+/* ------------- */
+.main-wrapper {
+	height: 100vh;
+	background: -webkit-linear-gradient(top, #000000, #53346D);
+	background: linear-gradient(top, #000000, #53346D);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
