@@ -28,9 +28,9 @@
     </div>
   </div>
   <button type="submit">TODO</button>
-  <div class="add-form well">
+  <div class="add-form well" id="new-task">
     <h3>New Task</h3>
-    <input type="text" id="new-todo" />
+    <input type="text" id="new-task-in" />
     <input class="btn btn-success new-todo" type="submit" id="new-todo-submit" value="Add" />
   </div>
 
@@ -39,7 +39,9 @@
     <center>
       <i class="fa fa-plus add-todo" id="add-todo" aria-hidden="true"></i>
     </center>
-    <i class="fa fa-circle-o todo-circle text-warning" id="circle-checked" aria-hidden="true">&nbsp;This is the first to do</i>
+    <div id="list-of-task">
+      <i class="fa fa-circle-o todo-circle text-warning" id="first-co" aria-hidden="true">&nbsp;This is the first to do</i>
+    </div>
     </br>
   </div>
 
@@ -52,6 +54,7 @@
   <!-- Communication scripts -->
   <script src="/socket.io/socket.io.js" type="text/javascript" charset="utf-8"></script>
   <script src="../js/socket.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../js/action.js"></script>
   <!-- END OF SCRIPTS -->
 </body>
 </html>

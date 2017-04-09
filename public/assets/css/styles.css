@@ -104,6 +104,7 @@ div.login-form {
 
 .add-form {
   height: 25%;
+  display: none;
 }
 
 .checked {
