@@ -22,8 +22,16 @@ $(function() {
 
   // Adds the new Task
   taskSubmit.click(function(){
-    var li = "<i class=\"fa fa-circle-o todo-circle text-warning\" id=\"first-co\" aria-hidden=\"true\">&nbsp;" + newTaskIn.val() + "</i>";
+    var li = "<i class=\"fa fa-circle-o todo-circle text-warning spec-task\" aria-hidden=\"true\">&nbsp;" + newTaskIn.val() + "</i>" + "<br>";
     $('#list-of-task').append(li);
+    newTaskIn.val('');
+  });
+
+  // Check on click
+  $('.spec-task').click(function(){
+
+    console.log("It WOrkds");
+    $(this).addClass("checked");
   });
 
 });
