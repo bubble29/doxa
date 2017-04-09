@@ -9,17 +9,19 @@ html, body {
 	
 }
 
-h1 {
+h1, h2 {
 	font-size: 300%;
 	text-align: center;
-	font-family: 'Acme';
+	font-family: 'Nunito';
 	font-weight: bold;
+	text-transform: capitalize;
 	margin: 30px;
 }
 
-button.btn {
+button.navbar-btn {
 	font-size: 125%;
 	font-family: 'Acme';
+	margin-left: .5em;
 }
 
 /* ------------- */
