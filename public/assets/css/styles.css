@@ -6,8 +6,8 @@ html, body {
 	height: 100%;
   	margin: 0;
   	padding: 0;
-	background: -webkit-linear-gradient(top, #F0C27B, #4B1248);
-	background: linear-gradient(top, #F0C27B, #4B1248);
+	background: -webkit-linear-gradient(top, #000000, #53346D);
+	background: linear-gradient(top, #000000, #53346D);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -16,16 +16,20 @@ body {
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 300%;
 	text-align: center;
-	font-family: 'Comic Sans MS';
+	font-family: 'Acme', sans-serif;;
 	font-weight: bold;
 	margin: 50px;
 }
 
 h1.gradient {
-	background: -webkit-linear-gradient(top, #45B649, #155799);
-	background: linear-gradient(top, #45B649, #155799);
+	background: -webkit-linear-gradient(top, #1565c0, #45B649);
+	background: linear-gradient(top, #1565c0, #45B649);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.navbar {
+	font-size: 100%;
 }
