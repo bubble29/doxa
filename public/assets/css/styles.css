@@ -14,6 +14,9 @@ button.navbar-btn {
 	margin-left: .5em;
 }
 
+li {
+  list-style: none;
+}
 
 /* ------------- */
 /* - Index CSS - */
@@ -53,4 +56,23 @@ h1.gradient1 {
 
 .main {
 	margin-top: 3%;
+}
+
+/* ------------- */
+/* --- FOOTER -- */
+/* ------------- */
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+}
+
+/* ------------- */
+/* --- LOGIN  -- */
+/* ------------- */
+div.login-form {
+  margin: 0 auto;
+  display: block;
+  width: 30%;
 }
