@@ -11,12 +11,39 @@
     <title>Doxa</title>
 </head>
 <body>
-    <button class="home"><a href="../../index.html">Home</a></button>
-    <button class="login"><a href="../../assets/pages/login.html">Login</a></button>
-    <button class="projects"><a href="../../assets/pages/about.html">Projects</a></button>
-    <button class="projects"><a href="../../assets/pages/projects.html">Projects</a></button>
+  <div class="main-wrapper">
+    <nav class="navbar navbar-inverse navbar-top">
+    <!-- Navbar -->
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed" aria-expanded="false" aria-controls="navbar" type="button" data-target="#navbar" data-toggle="collapse">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Doxa</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav navbar-left">
+            <!--<li><a class="navbar-brand" href="#"><img alt="Brand" src="..."></a></li>-->
+            <li><button type="button" class="btn btn-info navbar-btn"><a href="../../index.html">Home</a></button></li>
+            <li><button type="button" class="btn btn-info navbar-btn"><a href="../../assets/pages/about.html">About</a></button></li>
+            <li><button type="button" class="btn btn-info navbar-btn"><a href="../../assets/pages/projects.html">Projects</a></button></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><button type="button" class="btn btn-success navbar-btn"><a href="../../assets/pages/login.html">Login</a></button></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   <h1>You are at About</h1>
-  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">placeholder for footer</p>
+    </div>
+  </footer>
   <!-- BEGIN OF SCRIPTS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
@@ -27,5 +54,6 @@
   <script src="/socket.io/socket.io.js" type="text/javascript" charset="utf-8"></script>
   <script src="/assets/js/socket.js" type="text/javascript" charset="utf-8"></script>
   <!-- END OF SCRIPTS -->
+  </div>
 </body>
 </html>
