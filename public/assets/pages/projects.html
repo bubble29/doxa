@@ -33,14 +33,28 @@
             <li><button type="button" class="btn btn-info navbar-btn"><a href="../../assets/pages/projects.html">Projects</a></button></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><button type="button" class="btn btn-success navbar-btn"><a href="../../assets/pages/login.html">Login</a></button></li>
+            <li><button type="button" class="btn btn-success navbar-btn"><a href="../../assets/pages/login.html">Reni</a></button></li>
           </ul>
         </div>
       </div>
     </nav>
     <div class="jumbotron">
-      <h1>You are at Projects</h1>
-      <i class="fa fa-plus-circle" aria-hidden="true"></i>
+      <h2 class="text-center">Welcome <a href="#">Reni</a>&nbsp;Here are your projects</h2>
+      <center>
+        <i class="fa fa-plus-circle add-group" id="add-group" aria-hidden="true"></i>
+        <div id="group-list">
+          <a href="chat.html" class="btn btn-danger btn-lg group">Group</a>
+        </div>
+
+        <div class="group-form" id="group-form">
+          <h3 class="text-warning">New Group</h3>
+          <input type="text" id="new-group-in" />
+          <input class="btn btn-success new-group" type="submit" id="add-new-group" value="Add" />
+        </div>
+
+      </center>
+
+       
     </div>
   <!-- Footer -->
     <footer class="footer">
@@ -57,6 +71,7 @@
   <!-- Communication scripts -->
   <script src="/socket.io/socket.io.js" type="text/javascript" charset="utf-8"></script>
   <script src="/assets/js/socket.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../js/action.js" type="text/javascript" charset="utf-8"></script>
   <!-- END OF SCRIPTS -->
 </div>
 </body>

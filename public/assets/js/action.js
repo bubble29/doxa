@@ -1,6 +1,7 @@
 $(function() {
   // Useful variables
   var faded = false;
+  var fadeG = false;
 
   var newTaskIn = $('#new-task-in'); 
   var addTodo = $('#add-todo');
@@ -32,4 +33,33 @@ $(function() {
     $(this).addClass("checked");
   });
 
+  // Adds new group
+
+  // Controls adding new group
+  $('#add-group').click(function(){
+    if(fadeG == false) {
+      $('#group-form').fadeIn();
+      fadeG = true;
+    }
+    else {
+      $('#group-form').fadeOut();
+      fadeG = false;
+    }
+
+    // Adds new group
+    $('#add-new-group').click(function(){
+      var el = "<a href=\"chat.html\" class=\"btn btn-danger btn-lg group\">"+ $('#new-group-in').val() + "</a>";
+      $('#group-list').append(el);
+      $('#group-form').fadeOut();
+      $('#new-group-in').val('');
+    });
+
+
+
+
+
+
+
+
+  });
 });

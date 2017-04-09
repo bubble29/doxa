@@ -119,3 +119,21 @@ a.users {
   width: 80%;
   border-radius: 15%;
 }
+
+i.fa-plus-circle.add-group {
+  font-size: 200px;
+  opacity: .2;
+  transition: opacity 1s;
+}
+
+i.fa-plus-circle.add-group:hover {
+  opacity: 1;
+}
+
+.group {
+  border-radius: 50%;
+}
+
+.group-form {
+  display: none;
+}
