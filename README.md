@@ -47,5 +47,5 @@ DESCRIPTION COMING SOON!
 DESCRIPTION COMING SOON!
 
 ### Have a clearner interface for the user
-![Difficulty Hard](https://img.shields.io/badge/Difficulty-Hard-red.svg)
+![Difficulty Easy](https://img.shields.io/badge/Difficulty-Easy-green.svg)
 DESCRIPTION COMING SOON!
