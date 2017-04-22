@@ -12,7 +12,7 @@
 8. [Have a clearner interface for the user](#)
 
 ### Give A brief description of the app on the home page.
-Difficulty: <font color="green">*Easy*</font>
+Difficulty: <font color='green'>Easy</font>
 
 Describe in short details what is Doxa and why the user should use Doxa
 instead of other competing apps. What makes Doxa different and gives an
