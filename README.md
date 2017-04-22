@@ -1,6 +1,6 @@
 # DOXA
 ## Next Steps
-1. [Give A brief description of the app on the home page.](### Give A brief description of the app on the home page.)
+1. [Give A brief description of the app on the home page.][]
 2. [Create a sign up form similar to the sign in form](#)
 3. [Give a Brief description of the apps and its purpose on the about
    page](#)
@@ -10,4 +10,4 @@
 7. [Add file sharing for people to collaborate](#)
 8. [Have a clearner interface for the user](#)
 
-### Give A brief description of the app on the home page.
+### Give A brief description of the app on the home page. ###
