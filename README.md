@@ -13,7 +13,7 @@
 5. [Improve the Todo List system](#improve-the-todo-list-system)
 6. [Improve the chat system](#improve-the-chat-system)
 7. [Add file sharing for people to collaborate](#add-file-sharing-for-people-to-collaborate)
-8. [Have a clearner interface for the user](#)
+8. [Have a clearner interface for the user](#have-a-clearner-interface-for-the-user)
 
 ### Give A brief description of the app on the home page.
 ![Difficulty Easy](https://img.shields.io/badge/Difficulty-Easy-green.svg)
