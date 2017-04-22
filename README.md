@@ -6,7 +6,7 @@
 ## Next Steps
 1. [Give A brief description of the app on the home
    page.](#give-a-brief-description-of-the-app-on-the-home-page)
-2. [Create a sign up form similar to the sign in form](#)
+2. [Create a sign up form similar to the sign in form](#create-a-sign-up form-similar-to-the-sign-in-form)
 3. [Give a Brief description of the apps and its purpose on the about
    page](#)
 4. [reate a better group chanel system](#)
@@ -20,5 +20,8 @@
 
 Describe in short details what is Doxa and why the user should use Doxa
 instead of other competing apps. What makes Doxa different and gives an
-advantage to the user.
+advantage to the user. This should be brief but descriptive.
+
+### Create a sign up form similar to the sign in form
+![Difficulty Easy](https://img.shields.io/badge/Difficulty-Easy-green.svg)
 
