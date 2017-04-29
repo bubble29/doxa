@@ -1,4 +1,4 @@
-# DOXA
+# DOXA!
 ![Build passing](https://img.shields.io/travis/rust-lang/rust.svg)
 ![Downloads](https://img.shields.io/pypi/dm/Django.svg)
 ![Website up](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)
